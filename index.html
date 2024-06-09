@@ -386,21 +386,20 @@
       <p class="footer-sub-text">
         Subscribe
       </p>
-      <form action="footer-form">
-        <label for="" class="footer-label">
-          <input type="email" name="user-email" id="user-email"  placeholder="E-mail" class="footer-input">
+      <form  class="footer-form">
+        <label >
+          <input type="email" name="user-email" placeholder="E-mail" class="footer-input">
         </label>
-      </form>
-
+      
       <button type="submit" class="footer-btn">Subscribe
         <svg class="footer-icon-send" width="24" height="24">
           <use href="./images/icons.svg#icon-send"></use>
         </svg>
       </button>
+    </form>
     </div>
   </div>
-      
-    </footer>
+</footer>
 
     <div class="modal-overlay is-open">
       <div class="modal">
@@ -446,15 +445,20 @@
         </div>
 
        <div class="modal-field checkbox">
-          <input type="checkbox" name="user-policy" id="user-policy" value="true" class="footer-privacy-input visually-hidden">
-          <svg class="modal-vector-icon" width="16" height="16">
+          <input type="checkbox" name="user-privacy" id="user-privacy" value="true" class="footer-privacy-input visually-hidden">
+          <label for="user-privacy" class="modal-checkbox-text">I accept the terms and conditions of the <span class="checkbox-span"> 
+            <svg class="modal-vector-icon" width="10" height="8">
             <use href="./images/icons.svg#icon-vector"></use>
           </svg>
+        </span> 
+        <a href="" class="modal-link">Privacy Policy</a>
+          </label>
+         
 
-          <label for="user-policy" class="modal-checkbox-text"> 
+          <!-- <label for="user-privacy" class="modal-checkbox-text"> 
             <span class="checkbox-span"></span>I accept the terms and conditions of the  
              <a href="" class="modal-link"> Privacy Policy</a>
-          </label>
+          </label> -->
        </div>
 
        
